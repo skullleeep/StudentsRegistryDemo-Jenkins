@@ -6,10 +6,9 @@ pipeline {
                 bat 'npm install'
             }
         }
-    }
-    stage("Run Integration Tests"){
-        steps{
-            bat 'npm run test'
+        stage("Run Integration Tests"){
+            steps{
+                bat 'npm run test'
+            }
         }
-    }
 }
