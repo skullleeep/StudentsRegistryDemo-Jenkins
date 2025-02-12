@@ -11,4 +11,5 @@ pipeline {
                 bat 'npm run test'
             }
         }
+    }
 }
